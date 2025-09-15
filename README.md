@@ -38,7 +38,7 @@ For Structure of Repository, see
 
 1. **Setup (Dofile Script)**  
    - Inserted EDT wrapper (decompressor + compactor) around scan chains
-   - Generated updated EDT netlist (.v) and TCD configuration file
+   - Generated updated EDT netlist and TCD configuration file
    - Collected logs: synthesis, EDT dofile, and summary logs
   
 
