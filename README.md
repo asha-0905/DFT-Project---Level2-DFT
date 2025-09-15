@@ -41,16 +41,31 @@ Here, we insert an **EDT wrapper** around those scan chains and generate all req
 ---
 
 ## Project Structure
+![project_structure](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/DFT_EDT%20flow.p)
 
 
 ## 🖼️ Visual Snapshots  
 
-- **ATPG Dofile** → `atpg_dofile.png`  
-- **EDT Log** → `edt_log.png`  
-- **Synthesis Log** → `syn_log.png`  
-- **EDT Netlist** → `case1_edt_top_gate.png`  
-- **TCD File** → `case1_DmaWr_edt_tcd.png`  
-- **Terminal Log** → `terminal_log.png`  
+- **EDT Dofile** → `edt_dofile.png`
+- ![edt_dofile](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/terminal.png?raw=true)
+  
+- **EDT Log** → `edt_log.png`
+- ![edt_Logfile](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Logfile.png?raw=true)
+  
+- **Synthesis Log** → `syn_log.png`
+- ![syn_log](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Syn_log.png?raw=true)
+  
+- **EDT Netlist** → `case1_edt_top_gate.png`
+- ![case1_edt_top_gate](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/case1_edt_top_gate.png?raw=true)
+  
+- **TCD File** → `case1_DmaWr_edt_tcd.png`
+- ![case1_DmaWr_edt_tcd](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/case1_DmaWr_edt.tcl1.png?raw=true)
+- ![case1_DmaWr_edt_tcd](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/case1_DmaWr_edt.tcl2.png?raw=true)
+- ![case1_DmaWr_edt_tcd](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/case1_DmaWr_edt.tcl3.png?raw=true)
+  
+- **Terminal Log** → `terminal_log.png`
+- ![terminal_log](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/terminal.png?raw=true)
+
 
 ---
 
