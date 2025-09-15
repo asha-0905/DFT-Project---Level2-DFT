@@ -41,32 +41,7 @@ Here, we insert an **EDT wrapper** around those scan chains and generate all req
 ---
 
 ## Project Structure
-DFT-EDT-Flow/
-│── README.md
-│── docs/
-│ └── Explanation.md
-│── src/
-│ ├── case1_scan.v # From Level1
-│ ├── case1_edt_top_gate.v # Post-EDT netlist
-│ └── library.v
-│── scripts/
-│ ├── case1_atpg.dofile # Dofile script
-│ └── run_edt.tcl
-│── reports/
-│ ├── edt_log.txt # Tessent summary
-│ ├── syn_log.txt # Area/timing report
-│ └── terminal.log
-│── outputs/
-│ ├── case1_edt_top_gate.v
-│ ├── case1_DmaWr_edt.tcd
-│ └── edt_wrapper.v
-│── screenshots/
-│ ├── atpg_dofile.png
-│ ├── edt_log.png
-│ ├── syn_log.png
-│ ├── case1_edt_top_gate.png
-│ ├── case1_DmaWr_edt_tcd.png
-│ └── terminal_log.png
+
 
 ## 🖼️ Visual Snapshots  
 
