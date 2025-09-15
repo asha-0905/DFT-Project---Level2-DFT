@@ -15,7 +15,7 @@ It works by compressing the ATPG-generated test patterns before applying them to
 ---
 # DFT-Project-Level2-Case1 – EDT Flow
 
-This project is Level-2 in my DFT learning path. It demonstrates **EDT (Embedded Deterministic Test) compression flow** applied to a scan-inserted design using Mentor Graphics Tessent.
+This repo shows how EDT is added on top of scan chains for test data compression.
 
 ---
 
@@ -37,11 +37,10 @@ For Structure of Repository, see
 ## 🚀 Flow Summary  
 
 1. **Setup (Dofile Script)**  
-   - Insert EDT (decompressor + compactor) around existing scan chains
-   - Generate netlist & constraint file
-   - Run synthesis logging & monitor area/timing reports (no ATPG yet)
-   - Linked with TSMC13 standard cell library  
-   - Configured Tessent EDT  
+   - Inserted EDT wrapper (decompressor + compactor) around scan chains
+   - Generated updated EDT netlist (.v) and TCD configuration file
+   - Collected logs: synthesis, EDT dofile, and summary logs
+  
 
 2. **EDT Insertion**  
    - 40 scan cells traced into scan chains  
@@ -53,7 +52,7 @@ For Structure of Repository, see
    - Area: ~1361 units  
    - Slack: 0 (no timing violations)  
 
-4. **Outputs Generated**  
+4. **Outputs Generated** (Refer to snapshots)
    - Post-EDT netlist (`case1_edt_top_gate.v`)  
    - Tessent core description (`case1_DmaWr_edt.tcd`)  
 
