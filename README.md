@@ -1,7 +1,3 @@
-# DFT-Project-Level2-Case1 – EDT Flow  
-
-This project demonstrates **Level 2 of the DFT Flow** — *Enhanced Deterministic Test (EDT) compression* — using **Mentor Graphics Tessent Shell**.  
-
 ## 🔹 What is EDT?
 **EDT (Embedded Deterministic Test)** is a DFT technique used to reduce test data volume and improve test efficiency.  
 It works by compressing the ATPG-generated test patterns before applying them to the scan chains. On-chip decompression logic expands the patterns, and the compacted test responses are collected at the outputs.  
@@ -33,7 +29,7 @@ This project is Level-2 in my DFT learning path. It demonstrates **EDT (Embedded
 ---
 
 ## 📂 Project Structure
-![project_structure](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/DFT_flow.pdf)
+[project_structure](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Repo_srtucture.pdf)
 
 ---
 
@@ -59,7 +55,6 @@ This project is Level-2 in my DFT learning path. It demonstrates **EDT (Embedded
 4. **Outputs Generated**  
    - Post-EDT netlist (`case1_edt_top_gate.v`)  
    - Tessent core description (`case1_DmaWr_edt.tcd`)  
-   - Logs & reports  
 
 ---
 
@@ -75,7 +70,7 @@ This project is Level-2 in my DFT learning path. It demonstrates **EDT (Embedded
 ## 🖼️ Visual Snapshots  
 
 - **EDT Dofile** → `edt_dofile.png`
-- ![edt_dofile](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/terminal.png?raw=true)
+- ![edt_dofile](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Dofile.png)
   
 - **EDT Log** → `edt_log.png`
 - ![edt_Logfile](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Logfile.png?raw=true)
