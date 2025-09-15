@@ -12,7 +12,7 @@ Here, we insert an **EDT wrapper** around those scan chains and generate all req
 1. **Setup (Dofile Script)**  
    - Loaded scan-inserted netlist  
    - Linked with TSMC13 standard cell library  
-   - Configured Tessent ATPG/EDT  
+   - Configured Tessent EDT  
 
 2. **EDT Insertion**  
    - 40 scan cells traced into scan chains  
@@ -67,6 +67,12 @@ Here, we insert an **EDT wrapper** around those scan chains and generate all req
 - ![terminal_log](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/terminal.png?raw=true)
 
 
+---
+
+## 📖 Detailed Flow Explanation
+For a step-by-step breakdown of each screenshot and output, see 
+ [docs/Explanation.md](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_GITHUB.pdf)
+ 
 ---
 
 ## 🔮 Next Steps (Planned Roadmap)  
