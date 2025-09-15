@@ -52,10 +52,6 @@ For Structure of Repository, see
    - Area: ~1361 units  
    - Slack: 0 (no timing violations)  
 
-4. **Outputs**
-   - Post-EDT netlist (`case1_edt_top_gate.v`)  
-   - Tessent core description (`case1_DmaWr_edt.tcd`)  
-
 ---
 
 ## 📊 Results
@@ -64,6 +60,7 @@ For Structure of Repository, see
 - EDT decompressor + compactor successfully inserted.  
 - No timing violations (slack = 0 in syn log).  
 - Constraint file (`.tcd`) generated for compressed ATPG.
+- Verilog gate-level netlist after EDT insertion
 
 ---
 
@@ -76,7 +73,7 @@ For Structure of Repository, see
 - ![edt_Logfile](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Logfile.png?raw=true)
   
 - **Synthesis Log** → `syn_log.png`
-- ![Syn_log](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Syn_log.png?raw=true)
+- ![EDT_Syn_log](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Syn_log.png?raw=true)
   
 - **EDT Netlist** → `case1_edt_top_gate.png`
 - ![case1_edt_top_gate](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/case1_edt_top_gate.png?raw=true)
