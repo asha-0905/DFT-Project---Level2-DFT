@@ -41,7 +41,7 @@ Here, we insert an **EDT wrapper** around those scan chains and generate all req
 ---
 
 ## Project Structure
-![project_structure](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_GITHUB.pdf)
+![project_structure](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/DFT_flow.pdf)
 
 
 ## 🖼️ Visual Snapshots  
