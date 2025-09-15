@@ -29,7 +29,8 @@ This project is Level-2 in my DFT learning path. It demonstrates **EDT (Embedded
 ---
 
 ## 📂 Project Structure
-[project_structure](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Repo_srtucture.pdf)
+For Structure of Repository, see 
+ [project_structure](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Repo_srtucture.pdf)
 
 ---
 
