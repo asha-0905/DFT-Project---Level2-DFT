@@ -52,7 +52,7 @@ For Structure of Repository, see
    - Area: ~1361 units  
    - Slack: 0 (no timing violations)  
 
-4. **Outputs Generated** (Refer to snapshots)
+4. **Outputs**
    - Post-EDT netlist (`case1_edt_top_gate.v`)  
    - Tessent core description (`case1_DmaWr_edt.tcd`)  
 
@@ -70,13 +70,13 @@ For Structure of Repository, see
 ## 🖼️ Visual Snapshots  
 
 - **EDT Dofile** → `edt_dofile.png`
-- ![edt_dofile](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Dofile.png)
+- ![EDT_Dofile](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Dofile.png)
   
 - **EDT Log** → `edt_log.png`
 - ![edt_Logfile](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Logfile.png?raw=true)
   
 - **Synthesis Log** → `syn_log.png`
-- ![syn_log](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Syn_log.png?raw=true)
+- ![Syn_log](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Syn_log.png?raw=true)
   
 - **EDT Netlist** → `case1_edt_top_gate.png`
 - ![case1_edt_top_gate](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/case1_edt_top_gate.png?raw=true)
@@ -85,13 +85,13 @@ For Structure of Repository, see
 - ![case1_DmaWr_edt_tcd](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/case1_DmaWr_edt.tcl1.png?raw=true)
   
 - **Terminal Log** → `terminal_log.png`
-- ![terminal_log](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/terminal.png?raw=true)
+- ![terminal](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/terminal.png?raw=true)
 
 ---
 
 ## 📖 Detailed Flow Explanation
 For a step-by-step breakdown of each screenshot and output, see 
- [docs/Explanation.md](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Explanation.pdf)
+ [docs/Explanation.pdf](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Explanation.pdf)
  
 ---
 
