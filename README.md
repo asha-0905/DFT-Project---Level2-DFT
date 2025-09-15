@@ -2,15 +2,47 @@
 
 This project demonstrates **Level 2 of the DFT Flow** — *Enhanced Deterministic Test (EDT) compression* — using **Mentor Graphics Tessent Shell**.  
 
-It builds upon **Level1 (Scan Insertion)**, where scan chains were created.  
-Here, we insert an **EDT wrapper** around those scan chains and generate all required reports, logs, and constraint files.  
+## 🔹 What is EDT?
+**EDT (Embedded Deterministic Test)** is a DFT technique used to reduce test data volume and improve test efficiency.  
+It works by compressing the ATPG-generated test patterns before applying them to the scan chains. On-chip decompression logic expands the patterns, and the compacted test responses are collected at the outputs.  
+
+### Why is EDT performed?
+- To **reduce test pattern count** and hence **tester memory requirements**.  
+- To **decrease test application time** without losing fault coverage.  
+- To make large SoCs testable with practical ATE (Automatic Test Equipment) resources.  
+
+### Outcomes of EDT:
+- **High fault coverage** comparable to uncompressed tests.  
+- **Reduced test cost** due to fewer patterns and faster execution.  
+- **Scalable solution** for designs with many scan chains.
+
+---
+# DFT-Project-Level2-Case1 – EDT Flow
+
+This project is Level-2 in my DFT learning path. It demonstrates **EDT (Embedded Deterministic Test) compression flow** applied to a scan-inserted design using Mentor Graphics Tessent.
+
+---
+
+## 🛠️ Flow Summary
+
+1. Load scan-inserted netlist & standard cell library  
+2. Insert EDT wrapper (decompressor + compactor) around existing scan chains  
+3. Generate netlist & constraint file  
+4. Run synthesis logging & monitor area/timing reports (no ATPG yet)
+
+---
+
+## 📂 Project Structure
+![project_structure](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/DFT_flow.pdf)
 
 ---
 
 ## 🚀 Flow Summary  
 
 1. **Setup (Dofile Script)**  
-   - Loaded scan-inserted netlist  
+   - Insert EDT (decompressor + compactor) around existing scan chains
+   - Generate netlist & constraint file
+   - Run synthesis logging & monitor area/timing reports (no ATPG yet)
    - Linked with TSMC13 standard cell library  
    - Configured Tessent EDT  
 
@@ -31,18 +63,14 @@ Here, we insert an **EDT wrapper** around those scan chains and generate all req
 
 ---
 
-## 📊 Results  
+## 📊 Results
 
-✅ EDT wrapper successfully added  
-✅ 4 scan chains compressed into EDT channels  
-✅ Clean synthesis log (no critical errors)  
-✅ Netlist, reports, constraints generated  
+- 40 scan cells traced into scan chains.  
+- EDT decompressor + compactor successfully inserted.  
+- No timing violations (slack = 0 in syn log).  
+- Constraint file (`.tcd`) generated for compressed ATPG.
 
 ---
-
-## Project Structure
-![project_structure](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/DFT_flow.pdf)
-
 
 ## 🖼️ Visual Snapshots  
 
@@ -60,18 +88,15 @@ Here, we insert an **EDT wrapper** around those scan chains and generate all req
   
 - **TCD File** → `case1_DmaWr_edt_tcd.png`
 - ![case1_DmaWr_edt_tcd](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/case1_DmaWr_edt.tcl1.png?raw=true)
-- ![case1_DmaWr_edt_tcd](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/case1_DmaWr_edt.tcl2.png?raw=true)
-- ![case1_DmaWr_edt_tcd](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/case1_DmaWr_edt.tcl3.png?raw=true)
   
 - **Terminal Log** → `terminal_log.png`
 - ![terminal_log](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/terminal.png?raw=true)
-
 
 ---
 
 ## 📖 Detailed Flow Explanation
 For a step-by-step breakdown of each screenshot and output, see 
- [docs/Explanation.md](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_GITHUB.pdf)
+ [docs/Explanation.md](https://github.com/asha-0905/DFT-Project---Level2-DFT/blob/main/EDT_Explanation.pdf)
  
 ---
 
