@@ -108,3 +108,7 @@ For a step-by-step breakdown of each screenshot and output, see
 🔗 [LinkedIn](#) | [GitHub](#)  
 
 ⭐ If you found this project useful, consider giving the repo a star!
+
+---
+
+#DFT #VLSI #Semiconductors #ScanInsertion #EDT #ATPG #ASIC #DesignForTest #ChipDesign #SoC #TestCompression #DFTEngineering
